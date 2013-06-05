@@ -1,11 +1,22 @@
 <?php
 /*
-Plugin Name: Content Collection Display
-Plugin URI: http://kwilkins.com/
-Description: Displays content randomly from a numbered set of html pages located from a base url
-Author: Kevin Wilkinson
-Version: 0.5
-Author URI: http://kwilkins.com/
+ * content-collection-display.php - renders plugin views
+ *
+ * Copyright 2013, Kevin Wilkinson
+ * This plugin is distributed under the terms of the GNUv3 General Public License
+ * This plugin is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation
+ *
+ * You should have recieved a copy of the GNU General Public License
+ * along with this plugin.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Plugin Name: Content Collection Display
+ * Plugin URI: https://github.com/kwilkins/wordpress/tree/master/content-collection-display
+ * Description: Displays content randomly from a numbered set of html pages located from a base url
+ * Author: Kevin Wilkinson
+ * Version: 0.5
+ * Author URI: http://kwilkins.com/
 */
 
 class ContentChooser extends WP_Widget {
@@ -20,7 +31,7 @@ class ContentChooser extends WP_Widget {
     		'width' => 300
     	);
     	$this->WP_Widget('ContentChooser',
-    		'Displays content randomly from a numbered set of html pages located from a base url',
+    		'Content Collection Display',
     		$widget_ops, $control_options);
 	}
 	

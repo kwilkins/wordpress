@@ -1,3 +1,6 @@
+Copyright 2013 Kevin Wilkinson
+This plugin is distributed under the terms of the GNUv3 General Public License
+
 === Content Collection Display ===
 Contributors: kwilkins
 Tags: widget, content, set, choose, pick, bag, random, display
