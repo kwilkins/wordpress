@@ -1,11 +1,15 @@
 <?php
 /*
-Plugin Name: Content Collection Display
-Plugin URI: http://kwilkins.com/
-Description: Displays content randomly from a numbered set of html pages located from a base url
-Author: Kevin Wilkinson
-Version: 0.5
-Author URI: http://kwilkins.com/
+ * Copyright 2013, Kevin Wilkinson
+ * This plugin is distributed under the terms of the GNUv3 General Public License
+ *
+ *
+ * Plugin Name: Content Collection Display
+ * Plugin URI: https://github.com/kwilkins/wordpress/tree/master/content-collection-display
+ * Description: Displays content randomly from a numbered set of html pages located from a base url
+ * Author: Kevin Wilkinson
+ * Version: 0.5
+ * Author URI: http://kwilkins.com/
 */
 
 class ContentChooser extends WP_Widget {
