@@ -2,7 +2,7 @@
 /*
  * content-collection-display.php - renders plugin views
  *
- * Copyright 2013, Kevin Wilkinson
+ * Copyright 2013 Kevin Wilkinson
  * This plugin is distributed under the terms of the GNUv3 General Public License
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
